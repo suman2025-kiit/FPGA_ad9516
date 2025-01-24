@@ -1,0 +1,58 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling(apcc) ../../../../xil_cache.c in debug mode
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vitis_HLS/2021.2/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user '91960' on host 'laptop-kqsqkbks' (Windows NT_amd64 version 6.2) on Fri Jan 24 07:41:12 +0530 2025
+INFO: [HLS 200-10] In directory 'C:/Users/91960/Downloads/sm/solution1/csim/build'
+../../../../xil_cache.c:4:23: error: too many arguments provided to function-like macro invocation
+void Xil_ICacheEnable(void) {
+                      ^
+../../../../xil_cache.c:4:6: error: variable has incomplete type 'void'
+void Xil_ICacheEnable(void) {
+     ^
+../../../../xil_cache.c:4:22: error: expected ';' after top level declarator
+void Xil_ICacheEnable(void) {
+                     ^
+                     ;
+../../../../xil_cache.c:8:24: error: too many arguments provided to function-like macro invocation
+void Xil_ICacheDisable(void) {
+                       ^
+../../../../xil_cache.c:12:23: error: too many arguments provided to function-like macro invocation
+void Xil_DCacheEnable(void) {
+                      ^
+../../../../xil_cache.c:16:24: error: too many arguments provided to function-like macro invocation
+void Xil_DCacheDisable(void) {
+                       ^
+6 errors generated.
+ERROR: [APCC 202-10] clang compile failed: child process exited abnormally
+ERROR: [APCC 202-1] ProcessSources failed
+INFO: [APCC 202-3] Tmp directory is apcc_db
+ERROR: [APCC 202-1] APCC failed.
+INFO: [HLS 200-112] Total CPU user time: 0 seconds. Total CPU system time: 0 seconds. Total elapsed time: 1.976 seconds; peak allocated memory: 2.266 MB.
+   Compiling(apcc) ../../../../updated_4.c in debug mode
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vitis_HLS/2021.2/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user '91960' on host 'laptop-kqsqkbks' (Windows NT_amd64 version 6.2) on Fri Jan 24 07:41:16 +0530 2025
+INFO: [HLS 200-10] In directory 'C:/Users/91960/Downloads/sm/solution1/csim/build'
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+INFO: [HLS 200-112] Total CPU user time: 0 seconds. Total CPU system time: 0 seconds. Total elapsed time: 5.41 seconds; peak allocated memory: 2.387 MB.
+   Compiling(apcc) ../../../../no_os_spi.c in debug mode
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vitis_HLS/2021.2/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user '91960' on host 'laptop-kqsqkbks' (Windows NT_amd64 version 6.2) on Fri Jan 24 07:41:23 +0530 2025
+INFO: [HLS 200-10] In directory 'C:/Users/91960/Downloads/sm/solution1/csim/build'
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+INFO: [HLS 200-112] Total CPU user time: 0 seconds. Total CPU system time: 0 seconds. Total elapsed time: 5.687 seconds; peak allocated memory: 2.113 MB.
+   Compiling(apcc) ../../../../ad9516.c in debug mode
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vitis_HLS/2021.2/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user '91960' on host 'laptop-kqsqkbks' (Windows NT_amd64 version 6.2) on Fri Jan 24 07:41:31 +0530 2025
+INFO: [HLS 200-10] In directory 'C:/Users/91960/Downloads/sm/solution1/csim/build'
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+INFO: [HLS 200-112] Total CPU user time: 0 seconds. Total CPU system time: 0 seconds. Total elapsed time: 5.603 seconds; peak allocated memory: 2.133 MB.
+   Generating csim.exe
+Makefile.rules:392: recipe for target 'csim.exe' failed
+g++.exe: error: obj/xil_cache.o: No such file or directory
+make: *** [csim.exe] Error 1
+ERR: [SIM 100] CSim file generation failed: compilation error(s).
+INFO: [SIM 3] *************** CSIM finish ***************

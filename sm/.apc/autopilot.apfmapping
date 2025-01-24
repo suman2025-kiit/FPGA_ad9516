@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="ad9516.c" path="C:\Users\91960\Downloads\ad9516.c"/>
+    <originFiles name="ad9516.h" path="C:\Users\91960\Downloads\ad9516.h"/>
+    <originFiles name="xparameters.h" path="C:\Users\91960\Downloads\xparameters.h"/>
+    <originFiles name="updated_4.c" path="C:\Users\91960\Downloads\updated_4.c"/>
+    <originFiles name="no_os_spi.c" path="C:\Users\91960\Downloads\no_os_spi.c"/>
+    <originFiles name="xil_cache.c" path="C:\Users\91960\Downloads\xil_cache.c"/>
+    <originFiles name="xil_cache.h" path="C:\Users\91960\Downloads\xil_cache.h"/>
+    <originFiles name="no_os_spi.h" path="C:\Users\91960\Downloads\no_os_spi.h"/>
+  </source>
+  <testbench>
+    <originFiles name="xparameters.h" path="C:\Users\91960\Downloads\xparameters.h"/>
+    <originFiles name="no_os_spi.h" path="C:\Users\91960\Downloads\no_os_spi.h"/>
+    <originFiles name="ad9516.h" path="C:\Users\91960\Downloads\ad9516.h"/>
+    <originFiles name="no_os_spi.c" path="C:\Users\91960\Downloads\no_os_spi.c"/>
+    <originFiles name="ad9516.c" path="C:\Users\91960\Downloads\ad9516.c"/>
+    <originFiles name="updated_4.c" path="C:\Users\91960\Downloads\updated_4.c"/>
+    <originFiles name="xil_cache.c" path="C:\Users\91960\Downloads\xil_cache.c"/>
+    <originFiles name="xil_cache.h" path="C:\Users\91960\Downloads\xil_cache.h"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>
